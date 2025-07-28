@@ -1,10 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import KhButton from './KhButton.jsx';
+import KhDiv from './KhDiv.jsx';
+import Bye from './Bye.jsx';
+import Hello from './Hello.jsx';
+import World from './World.jsx';
 
 function App() {
   return (
     <>
-      <h3>태그 여러 개</h3>
+      <Hello />
+      <World />
+      <br />
+      <KhButton />
+      <KhDiv />
+      <br />
+      <Bye />
     </>
   );
 }
