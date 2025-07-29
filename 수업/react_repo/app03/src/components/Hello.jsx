@@ -1,8 +1,8 @@
-import h from './Hello.module.css'
+import styles from './Hello.module.css'
 
 const Hello = () => {
   return (
-    <h1 className={h.target}>HELLO</h1>
+    <h1 className={styles.target}>HELLO</h1>
   );
 };
 

@@ -7,9 +7,13 @@ body {
   justify-content: center;
 
   text-align: center;
-  font-size: 11px;
+  background-color: #eeeef3;
 }
 
 h1 {
   color: #2c3156;
+}
+
+div {
+  font-size: 15px;
 }
